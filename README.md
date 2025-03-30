@@ -61,29 +61,3 @@ The project demonstrates core SQL concepts, including:
     ```sql
     SELECT * FROM Achievements WHERE player_id = 2;
     ```
-
-## 🚀 How to Use
-
-1. **Clone the Repository**:
-    ```bash
-    git clone https://github.com/yourusername/gaming-platform-valorant.git
-    cd gaming-platform-valorant
-    ```
-
-2. **Create the Database Schema**:
-    Run the `schema.sql` file to create the database tables.
-    ```bash
-    mysql -u username -p < schema.sql
-    ```
-
-3. **Insert Sample Data**:
-    Insert the sample data into the tables by running the `insert.sql` file.
-    ```bash
-    mysql -u username -p < insert.sql
-    ```
-
-4. **Execute Queries**:
-    Run the queries in the `queries.sql` file to retrieve and analyze data.
-    ```bash
-    mysql -u username -p < queries.sql
-    ```
