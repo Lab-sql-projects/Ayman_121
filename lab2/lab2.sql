@@ -30,7 +30,7 @@ SELECT Players.name, SUM(Scores.score) AS total_score
 FROM Players
 JOIN Scores ON Players.player_id = Scores.player_id
 GROUP BY Players.name
-HAVING SUM(Scores.score) > 500;
+HAVING SUM(Scores.score) > 300;
 
 -- 6. Subquery: Find players who scored higher than the average score in a specific game
 SELECT Players.name
